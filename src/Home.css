@@ -1,0 +1,102 @@
+.homeContainer{
+    height: 100%;
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    min-height: 100vh;
+}
+
+.homeMain{
+    padding: 20px 40px;
+    
+}
+
+.homeFilters{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    min-height: 50px;
+
+}
+
+.rides{
+    display: flex;
+    flex-grow: 1;
+}
+
+.rides>button{
+    border: none;
+    margin-right: 20px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    /* border-bottom: 2px solid white; */
+}
+.shown{
+    /* border-bottom: 2px solid white;
+     */
+     /* width :600px; */
+     border : 1px solid red;
+     background-color: blue;
+}
+
+.filter{
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+
+}
+
+.filterIcon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.filterButton{
+    min-width: 200px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    padding:10px 20px;
+
+}
+.filterDropdownHeader{
+    border-bottom: 2px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 7px;
+}
+
+.filterDropdown{
+    position: absolute;
+    right:0px;
+    top:-11px;
+    background-color: black;
+    border-radius: 10px ;
+    padding-bottom: 10px;
+    /* width: ; */
+    /* bottom: 0; */
+
+}
+
+.select{
+    background-color: #292929;
+    color: black;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    width: 80%;
+    margin:5px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}
